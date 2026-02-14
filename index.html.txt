@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharif App</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+header{
+    background:#111827;
+    padding:20px;
+    text-align:center;
+}
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#22c55e;
+}
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+.hero h1{
+    font-size:42px;
+}
+.btn{
+    background:#22c55e;
+    color:white;
+    padding:15px 30px;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+}
+.cards{
+    display:flex;
+    gap:20px;
+    padding:40px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.card{
+    background:#1f2937;
+    padding:20px;
+    border-radius:15px;
+    width:250px;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">🚀 Sharif App</div>
+</header>
+
+<section class="hero">
+<h1>Создаю приложения и сайты</h1>
+<p>Современные приложения для Android</p>
+<button class="btn">Связаться</button>
+</section>
+
+<section class="cards">
+
+<div class="card">
+<h3>📱 Приложения</h3>
+<p>Создание Android приложений под заказ</p>
+</div>
+
+<div class="card">
+<h3>🌐 Сайты</h3>
+<p>Красивые современные сайты</p>
+</div>
+
+<div class="card">
+<h3>⚡ Быстро</h3>
+<p>Запуск проекта за несколько дней</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Sharif App</p>
+</footer>
+
+</body>
+</html>
